@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* Login CSS Document */
+/*含登录、注册、个人信息*/
+body{
+    background: #f7f7f7;
+}
+/*标题区*/
+.title-container{
+    width: 1190px;
+    height: 74px;
+    margin: 0 auto;
+    padding: 46px 0 20px;
+    line-height: 74px;
+}
+.title-container span{
+    display: inline-block;
+    vertical-align: top;
+    height: 74px;
+    color: #444;
+}
+.title-container span i{
+    color: #c9c9c9;
+    padding: 0 5px;
+}
+.title-container span a{
+    color: #e91456;
+}
+
+/*主内容区*/
+.login-container{
+    width: 1200px;
+    height: 375px;
+    margin: 30px auto -20px;
+    background: #fff;
+}
+.login-container .login-left{
+
+}
+.login-container .login-right{
+    width: 290px;
+    padding: 0 30px;
+}
+.login-container .login-right h3{
+    height: 36px;
+    line-height: 36px;
+}
+.login-container .login-right h3 label{
+    font-size: 14px;
+}
+.login-container .login-right form div{
+    line-height: 30px;
+}
+#login-user, #login-pw{
+    width: 100%;
+    height: 30px;
+    border: 2px solid gray;
+    text-indent: 5px;
+}
+#login-chkcode{
+    width: 128px;
+    height: 30px;
+    border: 2px solid gray;
+    text-indent: 5px;
+}
+.login-container .login-right form div p{
+    height: 36px;
+}
+.login-container .login-right form div p input{
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+}
+.login-container .login-right form div button{
+    width: 100%;
+    height: 32px;
+    background: #e21357;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.login-right>div{
+    text-align: center;
+}
+.login-right>div p{
+    height: 36px;
+    border-bottom: 1px solid #e8e8e7;
+    padding-top: 20px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.login-right>div a img{
+    vertical-align: middle;
+}
+
+
+.register-container{
+    height: 380px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+.register-container .register-left{
+    width: 435px;
+    height: 380px;
+    background: #fff;
+}
+.register-left li{
+    height: 36px;
+    line-height: 36px;
+    margin: 20px 0;
+}
+.register-left li label{
+    display: inline-block;
+    width: 80px;
+    padding-left: 35px;
+}
+.register-left li input{
+    width: 275px;
+    height: 30px;
+    padding-left: 5px;
+    border: 2px solid gray;
+}
+.register-left div{
+    height: 67px;
+    margin-left: 119px;
+}
+.register-left div p{
+    height: 36px;
+    line-height: 36px;
+}
+.register-left div p input{
+    vertical-align: middle;
+}
+.register-left div button{
+    margin-bottom: 2px;
+    width: 274px;
+    height: 30px;
+    background: #e21357;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.register-container .register-right{
+    width: 755px;
+    height: 380px;
+    background: #fff;
+}
+
+/*个人信息*/
+.complete-body .logo{
+    width: 196px;
+}
+.head-complete-right{
+    height: 74px;
+    line-height: 74px;
+}
+.head-complete-right p{
+    font-size: 17px;
+    font-family: "Microsoft YaHei";
+}
+.head-complete-right p i{
+    margin-left: 30px;
+    color: #e91456;
+}
+.head-complete-right a{
+    margin-right: 5px;
+}
+.head-complete-right a i{
+    font-size: 14px;
+    color: #e91456;
+}
+
+/*个人信息内容区*/
+.personal-container{
+    width: 1190px;
+}
+.personal-nav{
+    width: 196px;
+    margin-right: 10px;
+    background: #eee;
+    border: 1px solid #c9c9c9;
+}
+.personal-nav ul{
+
+}
+.personal-nav ul h3{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    background: #dcdcdc;
+    font-weight: 400;
+}
+.personal-nav ul li{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+.personal-content{
+    width: 980px;
+    height: 398px;
+    border: 1px solid #c9c9c9;
+}
+.personal-content ul h3{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    background: #dcdcdc;
+    font-weight: 400;
+}
+.personal-content ul form{
+    width: 658px;
+    height: 252px;
+}
+
+
+
+
+
+

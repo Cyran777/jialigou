@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* Function CSS Document */
+/*----------------------功能样式---------------*/
+.f-w1190{
+    width: 1190px;
+}
+
+/*浮动功能*/
+.f-fl{
+    float: left;
+}
+.f-fr{
+    float: right;
+}
+.f-clr{
+    clear: both;
+}
+
+/*margin功能*/
+.f-m0a{
+    margin: 0 auto;
+}
+.f-margin-right10{
+    margin-right: 10px;
+}
+.f-margin-top10{
+    margin-top: 10px;
+}
+.f-margin-bottom15{
+    margin-bottom: 15px;
+}
+
+/*padding功能*/
+.f-padding-top10{
+    padding-top: 10px;
+}
+
+/*position功能*/
+.f-pa{
+    position: absolute;
+}
+.f-pr{
+    position: relative;
+}
+
+/*display功能*/
+.f-dn{
+    display: none;
+}
+.f-db{
+    display: block;
+}
+
+
+
+
+
+
+
+
+.s-font-head {
+    font-family: "Microsoft Yahei";
+    font-size: 17px;
+    text-decoration: none;
+}
